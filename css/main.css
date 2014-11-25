@@ -1,0 +1,175 @@
+@charset "utf-8";
+/* CSS Document */
+
+li a{
+    color:#FFFFFF;
+    text-decoration:none;
+}
+
+h1, h2{
+    text-decoration:none;
+}
+
+/*html,body{*/
+/*    background-color:#a8a8a8;*/
+/*    padding:0;*/
+/*    margin:0;*/
+/*    font-family: Share Tech;*/
+/*    color: #FFFFFF;*/
+/*}*/
+
+/*input, select, button{*/
+/*	font-family: Share Tech;	*/
+/*	background-color:#939393;*/
+/*	color: #FFFFFF;*/
+/*}*/
+
+input[type="text"], input[type="password"]{
+	/* background-color:#939393; */ 	
+	color: #FFFFFF;
+	/* font-family: Share Tech; */
+}
+
+button, input[type="submit"]{
+	/* background-color:#939393; */ 
+	font-size: 20px;
+	color: #FFFFFF;
+	border: 0;
+}
+
+a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+li a:hover{
+	color: #C0A172;	
+}
+
+#cancel{
+	background-color:#939393; 
+	font-family: Share Tech;
+	font-size: 20px;
+	color: #FFFFFF;
+	border: 0;
+}
+
+#nav-bar{
+    background-color:#382E1C; 
+}
+
+#nav-bar ul{
+    display:inline-block; 
+    margin-top:0; 
+    padding:10px;
+    width:100%;
+    height:17px;
+    text-align: right;
+
+}
+
+#nav-bar li a{
+    text-decoration:none;
+    display:inline;
+}
+
+#nav-bar li{
+    display:inline-block; 
+    color:#FFFFFF;
+}
+
+#footer{
+	position: absolute;	
+	
+}
+
+#footer ul{
+    display:inline-block; 
+    padding:10px;
+    width:100%;
+    height:17px;
+    text-align: right;
+}
+
+#footer li a{
+    text-decoration:none;
+    display:inline;
+}
+
+#footer li{
+    display:inline-block; 
+    color:#FFFFFF;
+}
+
+#item-list li{
+	display:block; 
+}
+
+#item-list label{
+	vertical-align: top;	
+}
+
+#error{
+    background-color:#EE767E;
+    width:200px;
+    padding:10px;
+    color:#CC020F;
+    border-style:solid;
+    border-color:#FF0000;
+    border-width:2px;
+}
+
+#message{
+    background-color:#61ff4f;
+    width:200px;
+    padding:10px;
+    color:#00c405;
+    border-style:solid;
+    border-color:#00b708;
+    border-width:2px;
+}
+
+.medium{
+    width:90px;
+}
+
+.selected{
+    background-color: #008514;
+}
+
+.smallButton{
+	background-color:#939393; 
+	font-family: Share Tech;
+	font-size: 15px;
+	height: 35px;
+	color: #FFFFFF;
+	border: 0;
+}
+
+.medium{
+	font-size: 22px;
+}
+
+.disabled{
+	background-color:#9e9e9e;
+}
+
+
+.round1 {
+
+border:1px solid #c1c13a; 
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px; /* future proofing */
+-khtml-border-radius: 10px; /* for old Konqueror browsers */
+
+}
+
+.round2 {
+border:1px solid #c1c13a; 
+-moz-border-radius: 10px 10px 0 0;
+-webkit-border-radius: 10px 10px 0 0;
+border-radius: 10px 10px 0 0; /* future proofing */
+-khtml-border-radius: 10px 10px 0 0; /* for old Konqueror browsers */
+
+}
